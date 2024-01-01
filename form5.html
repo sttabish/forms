@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form5</title>
+</head>
+
+<body style="background-color: beige;">
+   <div> <h1 style="color: rgb(5, 111, 111);">User Input Form</h1>
+    <form >
+        <fieldset>
+            <legend style="color: #243795;">Personal Paractical:</legend>
+            <label for="fname"> name:</label>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Password:</label>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            GENDER:   <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">MALE</label>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">FEMALE</label><br><br>
+            <label for="age">Age:</label>
+            <select id="age" name="">
+                <option value="1 year old">1 year old</option>
+                <option value="1 year old">2 year old</option>
+                <option value="1 year old">3 year old</option>
+                <option value="1 year old">4 year old</option>
+            </fieldset>
+            <fieldset disabled="disabled"><input type="hidden"></fieldset>
+        </form>
+        <br>
+        <form >
+        <fieldset>
+            <legend style="color: #243795;">Language:</legend>
+            <input type="checkbox" id="" name="" value="">
+            <label for="vehicle1">JAVA</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="" name="" value="">
+            <label for="">C/C++</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="" name="" value="">
+            <label for="">C#</label>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend style="color: #243795;">Instruction</legend>
+            <textarea name="message" rows="7" cols="40"></textarea><br>
+        </fieldset>
+        <br>
+        <input style="width: 82px; padding: 9px; background-color:rgb(10, 93, 93) ; color: #fcf6f6;" type="submit" value="SEND">
+        <input style="width: 82px; padding: 9px; background-color:rgb(10, 93, 93) ; color: #fcf6f6;" type="submit" value="CLEAR">
+    </form>
+    <br><br><br><br>
+    <a href="form4.html" class="previous round">&#8249;</a>
+  <a href="#" class="next round">&#8250;</a>
+</body>
+<style>
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+      position: relative;
+        left: 340px;
+    }
+    
+    a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    
+    .next {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .round {
+      border-radius: 50%;
+    }
+    </style>
+</html>
